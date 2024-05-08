@@ -75,7 +75,7 @@ const TokenPartners = () => {
                   <div
                     className="partners-logo"
                   >
-                    <img src={partner.logoSrc} alt="logo" />
+                    <img className='Blurimg' src={partner.logoSrc} alt="logo" />
                     <div className="btn-outline">
                       <img src='../assets/images/crypto-token/round-circle.png' alt="img" />
                     </div>

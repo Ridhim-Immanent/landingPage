@@ -9,6 +9,7 @@ import TokenPartners from './TokenPartners/TokenPartners'
 import EcoSystem from './EcoSystem/EcoSystem'
 import Footer from '../Footer/Footer'
 import FaqSection from './Faq/Faq'
+import TokenTagSlide from './TokenTagSlide/TokenTagSlide'
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
         <AboutMerlin/>
         <KeyPoints/>
         <TokenTag/>
+        <TokenTagSlide/>
         <TokenPartners/>
         <FaqSection/>
         <EcoSystem/>

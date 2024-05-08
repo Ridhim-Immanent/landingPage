@@ -133,6 +133,10 @@ const TokenPartnersStyle = styled.div`
     }
 
 
+    .Blurimg{
+        filter:blur(8px)
+    }
+
 
 
 

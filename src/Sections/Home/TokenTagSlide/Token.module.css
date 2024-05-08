@@ -1,0 +1,111 @@
+.TokenSlide {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    animation: scroll 40s linear infinite;
+    width: calc(250px * 14);
+    position: relative;
+    z-index: 1;
+    padding: 0px 0px 121px 0px
+
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-250px * 7)); }
+}
+
+.TokenDiv a {
+    font-family: "Quantico", sans-serif;
+    margin-right: 30px;
+    padding: 15px 30px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 250%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000000;
+    border-radius: 50px;  
+}
+.TokenDiv:nth-child(1) a{
+    background: #AEE3FD !important;
+}
+.TokenDiv:nth-child(2) a{
+    background: #ADFFEB !important;
+}
+.TokenDiv:nth-child(3) a{
+    background: #AEE3FD !important;
+}
+.TokenDiv:nth-child(4) a{
+    background: #FF7BCA !important;
+}
+.TokenDiv:nth-child(5) a{
+    background: #F2DD09 !important;
+}
+.TokenDiv:nth-child(6) a{
+    background: #BFFF0A !important;
+}
+.TokenDiv:nth-child(7) a{
+    background: #AEE3FD !important;
+}
+.TokenDiv:nth-child(8) a{
+    background: #ADFFEB !important;
+}
+.TokenDiv:nth-child(9) a{
+    background: #AEE3FD !important;
+}
+.TokenDiv:nth-child(10) a{
+    background: #FF7BCA !important;
+}
+.TokenDiv:nth-child(11) a{
+    background: #F2DD09 !important;
+}
+.TokenDiv:nth-child(12) a{
+    background: #BFFF0A !important;
+}
+.TokenDiv:nth-child(13) a{
+    background: #AEE3FD !important;
+}
+.TokenDiv:nth-child(14) a{
+    background: #ADFFEB !important;
+}
+.TokenDiv:nth-child(15) a{
+    background: #AEE3FD !important;
+}
+.TokenDiv:nth-child(16) a{
+    background: #FF7BCA !important;
+}
+.TokenDiv:nth-child(17) a{
+    background: #F2DD09 !important;
+}
+.TokenDiv:nth-child(18) a{
+    background: #BFFF0A !important;
+}
+
+/* .TokenDiv .skyblue {
+    background: #AEE3FD;
+}
+
+.TokenDiv .skyblue2 {
+    background: #ADFFEB;
+}
+
+.TokenDiv .skyblue3 {
+    background: #AEE3FD;
+}
+
+.TokenDiv .offwhite {
+    background: #FFF8E7;
+}
+
+.TokenDiv .pink {
+    background: #FF7BCA;
+}
+
+.TokenDiv .yellow {
+    background: #F2DD09;
+}
+
+.TokenDiv .yellowgreen {
+    background: #BFFF0A;
+} */
